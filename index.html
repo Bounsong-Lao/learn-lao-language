@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ຮຽນພາສາລາວ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ຮຽນພາສາລາວ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ໜ້າຫຼັກ</a></li>
+                <li><a href="#alphabet-lesson">ບົດຮຽນພະຍັນຊະນະ</a></li>
+                <li><a href="#quiz">ແບບຝຶກຫັດ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊທ໌ຮຽນພາສາລາວ!</h2>
+            <p>ມາຮຽນຮູ້ພື້ນຖານພາສາລາວ, ເລີ່ມຕົ້ນຈາກພະຍັນຊະນະ, ສະຫຼະ, ຄຳສັບງ່າຍໆ, ແລະປະໂຫຍກທີ່ສຳຄັນ.</p>
+            <p>ພາສາລາວເປັນພາສາທີ່ສວຍງາມ ແລະ ມີເອກະລັກ. ການຮຽນຮູ້ມັນຈະຊ່ວຍໃຫ້ທ່ານເຂົ້າໃຈວັດທະນະທຳລາວໄດ້ດີຂຶ້ນ.</p>
+            <a href="#alphabet-lesson" class="btn">ເລີ່ມຮຽນພະຍັນຊະນະ</a>
+        </section>
+
+        <section id="alphabet-lesson" class="container lesson-section">
+            <h2>ບົດຮຽນ: ພະຍັນຊະນະ 'ກ'</h2>
+            <div class="alphabet-card">
+                <h3>ກໍ ໄກ່ (ກ)</h3>
+                <p>ສຽງ: ກໍ</p>
+                <div class="word-example">
+                    <img src="https://via.placeholder.com/100x100?text=Chicken" alt="ໄກ່">
+                    <p>ຄຳສັບ: **ໄກ່**</p>
+                </div>
+                <div class="word-example">
+                    <img src="https://via.placeholder.com/100x100?text=Banana" alt="ກ້ວຍ">
+                    <p>ຄຳສັບ: **ກ້ວຍ**</p>
+                </div>
+                </div>
+            </section>
+
+        <section id="quiz" class="container quiz-section">
+            <h2>ແບບຝຶກຫັດ: ຈັບຄູ່ພະຍັນຊະນະ</h2>
+            <p>ຈົ່ງເລືອກຄຳສັບທີ່ປະກອບມີພະຍັນຊະນະທີ່ກຳນົດໃຫ້.</p>
+            <div id="quiz-container">
+                <p id="quiz-question">ກົດປຸ່ມ "ເລີ່ມແບບຝຶກຫັດ" ເພື່ອເລີ່ມຕົ້ນ!</p>
+                <div id="quiz-options">
+                    </div>
+                <p id="quiz-feedback"></p>
+                <button id="start-quiz-btn">ເລີ່ມແບບຝຶກຫັດ</button>
+                <button id="next-question-btn" style="display: none;">ຄຳຖາມຕໍ່ໄປ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ຮຽນພາສາລາວ. ສະຫງວນລິຂະສິດ.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
