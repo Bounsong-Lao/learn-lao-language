@@ -1,0 +1,215 @@
+body {
+    font-family: 'Noto Sans Lao', sans-serif; /* ໃຊ້ຟອນລາວ ແລະ ຟອນທົ່ວໄປ */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7e0; /* ສີເຫຼືອງອ່ອນ */
+    color: #4a4a4a; /* ສີເທົາເຂັ້ມ */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8c734b; /* ສີນ້ຳຕານຄຣີມ */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #a68d60; /* ສີນ້ຳຕານຄຣີມອ່ອນລົງ */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #7a633f;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #8c734b;
+    border-bottom: 2px solid #8c734b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c9af7e; /* ສີນ້ຳຕານຄຣີມອ່ອນ */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #b59a6c;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+}
+#home p {
+    font-size: 1.1em;
+}
+
+/* Alphabet Lesson Section */
+.lesson-section {
+    background-color: #fffacd; /* ສີເຫຼືອງອ່ອນຫຼາຍ */
+    border: 1px solid #e6e6a8;
+}
+
+.alphabet-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alphabet-card h3 {
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #6a5a40; /* ສີນ້ຳຕານເຂັ້ມ */
+}
+
+.alphabet-card p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.word-example {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: #fcfcfc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.word-example img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.word-example p {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+}
+
+/* Quiz Section */
+.quiz-section {
+    text-align: center;
+    background-color: #ffe0b2; /* ສີສົ້ມອ່ອນ */
+    border: 1px solid #ffcc80;
+}
+
+#quiz-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#quiz-options button {
+    background-color: #ffb74d; /* ສີສົ້ມກາງ */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    min-width: 80px;
+}
+
+#quiz-options button:hover {
+    background-color: #ff9800;
+}
+
+#quiz-options button.disabled {
+    background-color: #ffd180; /* ສີອ່ອນເມື່ອກົດແລ້ວ */
+    cursor: not-allowed;
+}
+
+#quiz-feedback {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#quiz-feedback.correct {
+    color: green;
+}
+
+#quiz-feedback.incorrect {
+    color: red;
+}
+
+#start-quiz-btn, #next-question-btn {
+    background-color: #e65100; /* ສີສົ້ມເຂັ້ມ */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#start-quiz-btn:hover, #next-question-btn:hover {
+    background-color: #bf360c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8c734b;
+    color: #fff;
+    margin-top: 30px;
+  }
